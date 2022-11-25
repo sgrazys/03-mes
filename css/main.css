@@ -9,7 +9,6 @@
 
 
 .main-header {
-    background-color: aquamarine;
     display: inline-block;
     width: 900px;
     margin-left:calc(50% - 450px);
@@ -56,9 +55,13 @@
 }
 
 .search-icon {
-    width: 40px;
+    font-size: 20px;
+    line-height: 1em;
+    color: #366DF2;
+    text-decoration: none;
     float: right;
-    margin-top: 2.8px;
+    margin-top: 1.9px;
+    margin-right: 2em;
 }
 
 .main-content {
