@@ -3,11 +3,12 @@
     display: inline-block;
     width: 700px;
     margin-left:calc(50% - 350px);
+    margin-bottom: 20px;
 }
 
 .logo{
     border: solid 1px red;
-    width: 60px;
+    height: 25px;
     float: left;
 }
 
@@ -21,4 +22,35 @@
     border: solid 1px blueviolet;
     float: right;
     width: 40px;
+}
+
+.main-content {
+    background-color: rgb(255, 127, 127);
+    display: inline-block;
+    width: 700px;
+    margin-left:calc(50% - 350px);
+}
+
+.left-col {
+    width: 25%;
+    float: left;
+}
+
+.social {
+    background-color: aquamarine;
+    display: inline-block;
+}
+
+.prompt {
+    background-color: brown;
+    display: inline-block;
+}
+
+.social > .icon {
+    background-color: bisque;
+}
+
+.right-col {
+    float: right;
+    width: 75%;
 }
