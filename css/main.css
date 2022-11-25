@@ -1,34 +1,71 @@
+:root {
+    --main-color:#366DF2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
 .main-header {
     background-color: aquamarine;
     display: inline-block;
-    width: 700px;
-    margin-left:calc(50% - 350px);
+    width: 900px;
+    margin-left:calc(50% - 450px);
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .logo{
-    border: solid 1px red;
     height: 25px;
     float: left;
+    margin-top: 0.385px;
 }
 
 .main-nav {
-    background-color: yellow;
     display: inline-block;
-    margin-left: calc(350px / 2);
+    margin-left: 10.79em ;
+}
+
+.main-nav > .link {
+    display: inline-block;
+    font-family: monospace;
+    font-size: 17px;
+    line-height: 1em;
+    color: #4789F6;
+    text-decoration: none;
+    text-align: center;
+    border: solid 0.058em transparent;
+    border-radius: 0.88em;
+    padding: 0.2em 0.53em;
+    margin: 0;
+    transition: all 0.4s;
+}
+
+.main-nav > .link:hover {
+    border: solid 1px #366DF2;
+    background-color: #366DF2;
+    color: white;
+}
+
+.link.active {
+    border: solid 1px #366DF2;
+    background-color: #366DF2;
+    color: white;
 }
 
 .search-icon {
-    border: solid 1px blueviolet;
-    float: right;
     width: 40px;
+    float: right;
+    margin-top: 2.8px;
 }
 
 .main-content {
     background-color: rgb(255, 127, 127);
     display: inline-block;
-    width: 700px;
-    margin-left:calc(50% - 350px);
+    width: 900px;
+    margin-left:calc(50% - 450px);
 }
 
 .left-col {
