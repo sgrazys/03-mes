@@ -7,13 +7,17 @@
     padding: 0;
 }
 
+body {
+    font-family: sans-serif;
+}
+
 
 .main-header {
     display: inline-block;
     width: 900px;
     margin-left:calc(50% - 450px);
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .logo{
@@ -29,7 +33,6 @@
 
 .main-nav > .link {
     display: inline-block;
-    font-family: monospace;
     font-size: 17px;
     line-height: 1em;
     color: #4789F6;
@@ -65,32 +68,71 @@
 }
 
 .main-content {
-    background-color: rgb(255, 127, 127);
     display: inline-block;
     width: 900px;
     margin-left:calc(50% - 450px);
 }
 
 .left-col {
+    margin-top: 50px;
     width: 25%;
     float: left;
 }
 
-.social {
-    background-color: aquamarine;
+.description {
+    font-size: 20px;
+    color: #366DF2;
+    margin-bottom: 1em;
+}
+
+.main-title {
+    font-size: 37px;
+    text-transform: capitalize;
+    color: #EFB458;
+}
+
+.btn {
     display: inline-block;
+    font-size: 16px;
+    font-weight: 200;
+    color: #fff;
+    line-height: 1em;
+    text-decoration: none;
+    background-color: #366DF2;
+    border-radius: 25px;
+    padding: 15px 45px;
+    margin-top: 38px;
+}
+
+.social {
+    display: inline-block;
+    margin-top: 230px;
 }
 
 .prompt {
-    background-color: brown;
+    font-size: 14px;
+    color: #EFB458;
+    text-transform: capitalize;
     display: inline-block;
 }
 
 .social > .icon {
-    background-color: bisque;
+    height: 1em;
+    width: 1em;
+    font-size: 12px;
+    color: #fff;
+    text-align: center ;
+    text-decoration: none;
+    background-color: #EFB458;
+    border-radius: 20px;
+    padding: 4px;
+    margin-left: 5px;
+    margin-bottom: 5px;
 }
 
 .right-col {
     float: right;
     width: 75%;
+    height: 580px;
 }
+
