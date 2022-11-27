@@ -99,9 +99,17 @@ body {
     line-height: 1em;
     text-decoration: none;
     background-color: #366DF2;
+    border: solid 2px transparent;
     border-radius: 25px;
     padding: 15px 45px;
     margin-top: 38px;
+    transition: all 0.35s;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    color: #366DF2;
+    border: solid 2px #366DF2;
 }
 
 .social {
@@ -128,6 +136,11 @@ body {
     padding: 4px;
     margin-left: 5px;
     margin-bottom: 5px;
+    transition: all 0.3s;
+}
+
+.social > .icon:hover {
+    background-color: #366DF2;
 }
 
 .right-col {
